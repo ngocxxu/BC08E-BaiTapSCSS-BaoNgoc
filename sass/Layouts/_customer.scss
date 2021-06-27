@@ -1,0 +1,49 @@
+.customer {
+    background-image: url(../../images/Violet_top_left_wave.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &-item {
+        border-radius: 0.5rem;
+
+        .customer-item__content-table {
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            border-radius: 0.5rem;
+            transition: all 0.3s linear;
+
+
+            &:hover {
+                box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+                transition: all 0.3s linear;
+            }
+
+
+            .customer-item__img {
+                img {
+                    border-top-left-radius: 0.5rem;
+                    border-top-right-radius: 0.5rem;
+                    max-width: 100%;
+                }
+        
+            }
+
+            .customer-item__content {
+                border-bottom-left-radius: 0.5rem;
+                border-bottom-right-radius: 0.5rem;
+                background-color: #fff;
+
+                span {
+                    color: c('pink');
+                    font-size: fS('text-xs');
+                    font-weight: fW('font-semibold');
+                }
+
+                h3 {
+                    font-weight: fW('font-semibold');
+                }
+            }
+        }
+
+    }
+}

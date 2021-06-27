@@ -1,0 +1,30 @@
+.footer {
+    background-image: url(../../images/footer_background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &-list {
+        color: #fff;
+        &__item.item2,
+        &__item.item3 {
+            p {
+                border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+            }
+        }
+        &__item.item4 {
+            input {
+                border-radius: 5rem;
+                height: 3rem;
+                text-align: center;
+            }
+            button {
+                @include buttonClick('spacing-11', 'pink');
+                &:hover{
+                    color: rgba(0, 0, 0, 0.685);
+                    background-color: #fff
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.course {
+    background-image: url(../../images/accent_bottom_wave_01.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    &-img {
+        img {
+            max-width: 100%;
+        }
+    }
+
+    &-form {
+        background-color: #fff;
+
+        height: 100%;
+        // border: 1px solid #000;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 0.5rem;
+
+        form {
+            h1 {
+                text-align: center;
+
+            }
+
+            button {
+                @include buttonClick('spacing-10', 'pink');
+            }
+        }
+    }
+}

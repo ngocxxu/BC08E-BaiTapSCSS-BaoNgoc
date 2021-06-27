@@ -1,0 +1,11 @@
+.carousel{
+    &-about{
+      p{
+        color: c('pink');
+      }
+      h1{
+        font-weight: fW('font-bold');
+        font-size: fS('text-2xl')
+      }
+    }
+}
